@@ -1,12 +1,12 @@
 function Mostrar(){
 	//Genero el número RANDOM entre 1 y 10 
-	var alazar = Math.round(Math.random()*10);
-	if (alazar >=9){
-		console.log("Excelente");
-	}else if (alazar >=4) {
-		console.log("Aprobo");
+	var Alazar = Math.floor(Math.random()*10 +1);
+	if (Alazar >=9){
+		alert("Excelente "+Alazar);
+	}else if (Alazar >=4) {
+		alert("Aprobo "+ Alazar);
 	}else{
-		console.log("Vamos la proxima se puede.");
+		alert("Vamos la proxima se puede. "+ Alazar);
 	}
 
 }//FIN DE LA FUNCIÓN

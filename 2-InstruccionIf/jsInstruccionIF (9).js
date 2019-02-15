@@ -5,7 +5,7 @@ function Mostrar(){
 	*/
 	/* Math.round(); 
 	*/
-	var alazar =Math.round(Math.random()*10);
+	var alazar =Math.floor(Math.random()*10 +1);
 	//alert(">>: "+ alazar);
-	console.log(">>: "+ alazar);
+	alert(alazar);
 }//FIN DE LA FUNCIÓN
