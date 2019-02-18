@@ -1,8 +1,8 @@
 function Mostrar(){
 //tomo el mes
-var mesDelAño = document.getElementById('mes').value;
+var mesDelAnio = document.getElementById('mes').value;
 
-switch (mesDelAño) {
+switch (mesDelAnio){
 	case "Enero":
 		alert("Que comiences bien el año!!!.");
 		break;
@@ -17,8 +17,9 @@ switch (mesDelAño) {
 		break;
 
 	default:
-		alert("Elige");
-		}
+		alert("Elige de nuevo");
+		break;
+	}
 
 
 
