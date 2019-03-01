@@ -11,7 +11,7 @@ function Mostrar()
 		num1 = parseInt(prompt("Ingrese un numero"));
 		
 		acumulador +=num1;
-		pregunta = prompt("Desea continuar");
+		pregunta = prompt("Desea continuar").toLowerCase();
 		respuesta =pregunta;
 		contador++;
 	}while(respuesta !="no");
